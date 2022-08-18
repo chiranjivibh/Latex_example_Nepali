@@ -1,17 +1,91 @@
-\def\DevnagVersion{2.17}\documentclass{article}
+\def\DevnagVersion{2.17}%\documentclass{article}
+
+\documentclass[12pt]{book}
+\usepackage[width=4.375in, height=7.0in, top=1.0in, papersize={5.5in,8.5in}]{geometry}
+\usepackage[pdftex]{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{tipa}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+\fancyhf{}
+\fancyhead[LE,RO]{\bfseries\thepage}
+\fancyhead[LO]{\bfseries\rightmark}
+\fancyhead[RE]{\bfseries\leftmark}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0pt}
+\addtolength{\headheight}{0.5pt}
+\setlength{\footskip}{0in}
+\renewcommand{\footruleskip}{0pt}
+\fancypagestyle{plain}{%
+\fancyhead{}
+\renewcommand{\headrulewidth}{0pt}
+}
+%
+%\parindent 0in
+\parskip 0.05in
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{devanagari}
 \begin{document}
+
+\frontmatter
+%
+\chapter*{\large \center {\dn m\?ro Ej\306wdEg ko kTA} }
+\thispagestyle{empty}
+%{\hspace{0.25in} \includegraphics{./ru_sun.jpg} }
+\section*{\huge \center {\dn EcrE\3D2wvF B\3D3wrAI }}
+\newpage
+%\subsection*{\center \normalsize Copyright \copyright 2009 {\dn EcrE\3D2wvF B\3D3wrAI } }
+%\subsection*{\center \normalsize All rights reserved.}
+%\subsection*{\center \normalsize ISBN \dots}
+%\subsection*{\center \normalsize \dots Publications}
+%
+\chapter*{\center \normalsize  {\dn m\?ro h\7{j}\7{b}\0bA \3FEwEt smEp\0t}}
+%
+%\tableofcontents
+%
+\mainmatter
+%
+\chapter{ {\dn pArFvrFk E\3FEw\309wT\7{B}mF ko bAr\?m alF ktF Ebbh\31Aw}}
+% your text here
+ {\dn l\?Kk EcrE\3D2wvF B\3D3wrAI ko bAr\?mA aEl kEt pErcy\\
+pErvErk sd-y hz ko nAm ys \3FEwkAr C {\rs :\re} \\
+\7{s}r\?\306w\qb{d} \7{k}mAr B\3D3wrAI \7{b}bA .\\
+EtkA d\?vF B\3D3wrAI aAmA . \\
+sFtA ayA\0l m\?ro E\3FAwmtF . \\
+sFE\3D1wnA B\3D3wrAI CorF . \\
+sjnA B\3D3wrAi dFdF . \\
+kzZA B\3D3wrAi dFdF . \\
+}
+%
+\backmatter
+%
+\begin{thebibliography}{99}
+\bibitem{baba_books}
+Books of Shrii Shrii Anandamurti (Prabhat Ranjan Sarkar): \\
+http://shop.anandamarga.org/
+\bibitem{anandamitra}
+Avtk. Ananda Mitra Ac., \emph{The Spiritual Philosophy of Shrii Shrii Anandamurti: A Commentary on Ananda Sutram}, Ananda Marga Publications (1991) \\
+ISBN: 81-7252-119-7
+\end{thebibliography}
+
+
 %{\dn aEmr \7{K}sz aKtr.}
 %%%%%%%%%%%%%%%%%%%
 % https://latextutorialszn.blogspot.com/2019/10/devanagari-in-latex.html
-{\dn l\?Kk EcrE\317wjvF B\3D3wrAI ko bAr\?mA aEl kEt pErcy\\
+%\title
+
+{\dn l\?Kk EcrE\306wjvF B\3D3wrAI ko bAr\?mA aEl kEt pErcy\\
 pErvErk sd-y hz ko nAm ys \3FEwkAr C {\rs :\re} \\
 \7{s}r\?\306w\qb{d} \7{k}mAr B\3D3wrAI \7{b}bA .\\
 EtkA d\?vF B\3D3wrAI aAmA . \\
 sFtA ayA\0l m\?ro E\3FAwmtF . \\
 EsE\306wcnA B\3D3wrAI CorF . \\
 sjnA B\3D3wrAi dFdF . \\
-kzZA B\3D3wrAi dFdF .
+kzZA B\3D3wrAi dFdF . \\
 }
 \\
 {\dn aT gEZt\3FEwArMB\?\35FwBF\3A3wd\?vtA\2 nm-kroEt.}

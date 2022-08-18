@@ -1,17 +1,91 @@
-\documentclass{article}
+%\documentclass{article}
+
+\documentclass[12pt]{book}
+\usepackage[width=4.375in, height=7.0in, top=1.0in, papersize={5.5in,8.5in}]{geometry}
+\usepackage[pdftex]{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{tipa}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+\fancyhf{}
+\fancyhead[LE,RO]{\bfseries\thepage}
+\fancyhead[LO]{\bfseries\rightmark}
+\fancyhead[RE]{\bfseries\leftmark}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0pt}
+\addtolength{\headheight}{0.5pt}
+\setlength{\footskip}{0in}
+\renewcommand{\footruleskip}{0pt}
+\fancypagestyle{plain}{%
+\fancyhead{}
+\renewcommand{\headrulewidth}{0pt}
+}
+%
+%\parindent 0in
+\parskip 0.05in
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{devanagari}
 \begin{document}
+
+\frontmatter
+%
+\chapter*{\large \center {\dn mero jindagi ko kathaa} }
+\thispagestyle{empty}
+%{\hspace{0.25in} \includegraphics{./ru_sun.jpg} }
+\section*{\huge \center {\dn cira~njivii bha.t.taraaii }}
+\newpage
+%\subsection*{\center \normalsize Copyright \copyright 2009 {\dn cira~njivii bha.t.taraaii } }
+%\subsection*{\center \normalsize All rights reserved.}
+%\subsection*{\center \normalsize ISBN \dots}
+%\subsection*{\center \normalsize \dots Publications}
+%
+\chapter*{\center \normalsize  {\dn mero hajurbubaa prati samarpita}}
+%
+%\tableofcontents
+%
+\mainmatter
+%
+\chapter{ {\dn paariivariika pri.sthabhumii ko baarema alii katii bibaha~na}}
+% your text here
+ {\dn lekhaka cira~njivii bha.t.taraaii ko baaremaa ali kati paricaya\\
+parivarika sadasya haru ko naama yasa prakaara cha : \\
+surendra kumaara bha.t.taraaii bubaa |\\
+tikaa devii bha.t.taraaii aamaa | \\
+siitaa aryaala mero srimatii | \\
+sii~ncinaa bha.t.taraaii chorii | \\
+sajanaa bha.t.taraai diidii | \\
+karu.naa bha.t.taraai diidii | \\
+}
+%
+\backmatter
+%
+\begin{thebibliography}{99}
+\bibitem{baba_books}
+Books of Shrii Shrii Anandamurti (Prabhat Ranjan Sarkar): \\
+http://shop.anandamarga.org/
+\bibitem{anandamitra}
+Avtk. Ananda Mitra Ac., \emph{The Spiritual Philosophy of Shrii Shrii Anandamurti: A Commentary on Ananda Sutram}, Ananda Marga Publications (1991) \\
+ISBN: 81-7252-119-7
+\end{thebibliography}
+
+
 %{\dn amira khusaru akhatara|}
 %%%%%%%%%%%%%%%%%%%
 % https://latextutorialszn.blogspot.com/2019/10/devanagari-in-latex.html
-{\dn lekhaka cira.njivii bha.t.taraaii ko baaremaa ali kati paricaya\\
+%\title
+
+{\dn lekhaka ciranjivii bha.t.taraaii ko baaremaa ali kati paricaya\\
 parivarika sadasya haru ko naama yasa prakaara cha : \\
 surendra kumaara bha.t.taraaii bubaa |\\
 tikaa devii bha.t.taraaii aamaa | \\
 siitaa aryaala mero srimatii | \\
 sincinaa bha.t.taraaii chorii | \\
 sajanaa bha.t.taraai diidii | \\
-karu.naa bha.t.taraai diidii |
+karu.naa bha.t.taraai diidii | \\
 }
 \\
 {\dn atha ga.nitapraarambhe.abhii.s.tadevataa.m namaskaroti|}

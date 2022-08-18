@@ -4,12 +4,15 @@
 %{\dn amira khusaru akhatara|}
 %%%%%%%%%%%%%%%%%%%
 % https://latextutorialszn.blogspot.com/2019/10/devanagari-in-latex.html
-{\dn lekhaka cira.njivii bha.t.taraaii \\
-mero parivar ko sadasya haru ko naama yasa prakaara chha \\
-sincinaa bha.t.taraaii chhorii | \\
-siitaa aryaala mero srimati | \\
-surendra kumaara bha.t.taraaii buba\\
-tikaa devii bha.t.taraaii aamaa}
+{\dn lekhaka cira.njivii bha.t.taraaii ko baaremaa ali kati paricaya\\
+parivarika sadasya haru ko naama yasa prakaara cha : \\
+surendra kumaara bha.t.taraaii bubaa |\\
+tikaa devii bha.t.taraaii aamaa | \\
+siitaa aryaala mero srimatii | \\
+sincinaa bha.t.taraaii chorii | \\
+sajanaa bha.t.taraai diidii | \\
+karu.naa bha.t.taraai diidii |
+}
 \\
 {\dn atha ga.nitapraarambhe.abhii.s.tadevataa.m namaskaroti|}
 \end{document}

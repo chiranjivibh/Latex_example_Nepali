@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.3)  26 AUG 2022 16:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.3)  26 AUG 2022 16:15
 entering extended mode
 **./Tryal_unicode_nepali.tex
 (Tryal_unicode_nepali.tex
@@ -174,7 +174,7 @@ File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count266
 \l__pdf_internal_box=\box49
 )
-No file Tryal_unicode_nepali.aux.
+(Tryal_unicode_nepali.aux)
 \openout1 = `Tryal_unicode_nepali.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
@@ -191,6 +191,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
 LaTeX Font Info:    Checking defaults for U/dn/m/n on input line 32.
 LaTeX Font Info:    Trying to load font information for U+dn on input line 32.
+
 ("C:\Program Files\MiKTeX 2.9\tex/latex/devanagari\udn.fd"
 File: Udn.fd 2004/08/03 v2.14
 )
@@ -301,30 +302,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 81--92
 
 [3
 
-] (Tryal_unicode_nepali.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+] (Tryal_unicode_nepali.aux) ) 
 Here is how much of TeX's memory you used:
- 4173 strings out of 479765
- 53255 string characters out of 2876388
- 326294 words of memory out of 3000000
+ 4175 strings out of 479765
+ 53393 string characters out of 2876388
+ 326291 words of memory out of 3000000
  21165 multiletter control sequences out of 15000+200000
  539702 words of font info for 43 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,11n,72p,238b,394s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\cbhattar\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/public/devanagar
-i/dpi720\dvng10.pk> <C:\Users\cbhattar\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
-/public/devanagari/dpi720\dvngb10.pk> <C:\Users\cbhattar\AppData\Local\MiKTeX\2
-.9\fonts/pk/ljfour/public/devanagari/dpi1493\dvngb10.pk> <C:\Users\cbhattar\App
-Data\Local\MiKTeX\2.9\fonts/pk/ljfour/public/devanagari/dpi864\dvngb10.pk><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Tryal_unicode_nepali.pdf (7 pages, 88743 bytes).
+ <C:\Users\cbhattar\AppData\Local\MiKTeX\2.9\font
+s/pk/ljfour/public/devanagari/dpi720\dvng10.pk> <C:\Users\cbhattar\AppData\Loca
+l\MiKTeX\2.9\fonts/pk/ljfour/public/devanagari/dpi720\dvngb10.pk> <C:\Users\cbh
+attar\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/public/devanagari/dpi1493\dvngb1
+0.pk> <C:\Users\cbhattar\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/public/devana
+gari/dpi864\dvngb10.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr1
+2.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Tryal_unicode_nepali.pdf (7 pages, 89657 bytes).
 PDF statistics:
- 155 PDF objects out of 1000 (max. 8388607)
+ 157 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

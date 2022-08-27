@@ -7,12 +7,19 @@
 \usepackage{amssymb}
 \usepackage{tipa}
 \usepackage{fancyhdr}
+\usepackage{devanagari}
+\renewcommand\thesection{\devanagari{section}}
+\renewcommand\thechapter{\devanagari{chapter}}
+\renewcommand\thepage{\dn p.r.s.tha \rn{\arabic{<page>}}}
+\renewcommand{\chaptername}{ {\dn adhyaaya}} % अध्याय
+
 
 \pagestyle{fancy}
 \renewcommand{\chaptermark}[1]{\markboth{#1}{}}
 \renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
 \fancyhf{}
-\fancyhead[LE,RO]{\bfseries\thepage}
+%\fancyhead[LE,RO]{\bfseries\thepage}
+\fancyhead[LE,RO]{\bfseries{\dn p.r.s.tha \dn{\arabic{<page>}}} }
 \fancyhead[LO]{\bfseries\rightmark}
 \fancyhead[RE]{\bfseries\leftmark}
 \renewcommand{\headrulewidth}{0.5pt}
@@ -28,7 +35,7 @@
 %\parindent 0in
 \parskip 0.05in
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\usepackage{devanagari}
+%\usepackage{devanagari}
 \begin{document}
 
 \frontmatter
@@ -49,10 +56,11 @@
 %
 \mainmatter
 %
-\chapter{ {\dn paariivariika pri.sthabhumii}}
+\chapter{ {\dn paarivaarika p.r.s.tabhumii}}
+\section{ {\dn pahilo dina }}
 % your text here
  {\dn lekhaka "srii cira~njivii bha.t.taraaii ko baaremaa ali kati paricaya\\
-parivarika sadasya haru ko naama yasa prakaara cha : \\
+parivarika sadasya haru ko naama yasa prakaara cha: \\
 "srii  surendra kumaara bha.t.taraaii bubaa |\\
 "sriimatii .tikaa devii bha.t.taraaii aamaa | \\
 "sriimatii siitaa aryaala mero "sriimatii | \\
@@ -60,7 +68,17 @@ parivarika sadasya haru ko naama yasa prakaara cha : \\
 "sriimatii karu.naa bha.t.taraaii diidii | \\
 su"srii sii~ncinaa bha.t.taraaii chorii | \\
 }
-%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{ {\dn mero dainiiki}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{{\dn pahilo prayasa}}
+{\dn 
+\vfill{}
+ke lekhna mana laageko cha tyo lekhne ho yahaa| jastai 
+}
+\\
+{\dn atha ga.nitapraarambhe.abhii.s.tadevataa.m namaskaroti|}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \backmatter
 %
 \begin{thebibliography}{99}
@@ -71,22 +89,9 @@ http://shop.anandamarga.org/
 Avtk. Ananda Mitra Ac., \emph{The Spiritual Philosophy of Shrii Shrii Anandamurti: A Commentary on Ananda Sutram}, Ananda Marga Publications (1991) \\
 ISBN: 81-7252-119-7
 \end{thebibliography}
-
-
 %{\dn amira khusaru akhatara|}
 %%%%%%%%%%%%%%%%%%%
 % https://latextutorialszn.blogspot.com/2019/10/devanagari-in-latex.html
 %\title
 
-{\dn lekhaka ciranjivii bha.t.taraaii ko baaremaa ali kati paricaya\\
-parivarika sadasya haru ko naama yasa prakaara cha : \\
-surendra kumaara bha.t.taraaii bubaa |\\
-tikaa devii bha.t.taraaii aamaa | \\
-siitaa aryaala mero srimatii | \\
-sincinaa bha.t.taraaii chorii | \\
-sajanaa bha.t.taraai diidii | \\
-karu.naa bha.t.taraai diidii | \\
-}
-\\
-{\dn atha ga.nitapraarambhe.abhii.s.tadevataa.m namaskaroti|}
 \end{document}

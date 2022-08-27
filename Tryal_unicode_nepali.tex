@@ -7,12 +7,19 @@
 \usepackage{amssymb}
 \usepackage{tipa}
 \usepackage{fancyhdr}
+\usepackage{devanagari}
+\renewcommand\thesection{\devanagari{section}}
+\renewcommand\thechapter{\devanagari{chapter}}
+\renewcommand\thepage{\dn \9{p}\3A4w \rn{\arabic{page}}}
+\renewcommand{\chaptername}{ {\dn a@yAy}} % अध्याय
+
 
 \pagestyle{fancy}
 \renewcommand{\chaptermark}[1]{\markboth{#1}{}}
 \renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
 \fancyhf{}
-\fancyhead[LE,RO]{\bfseries\thepage}
+%\fancyhead[LE,RO]{\bfseries\thepage}
+\fancyhead[LE,RO]{\bfseries{\dn \9{p}\3A4w \dn{\arabic{page}}} }
 \fancyhead[LO]{\bfseries\rightmark}
 \fancyhead[RE]{\bfseries\leftmark}
 \renewcommand{\headrulewidth}{0.5pt}
@@ -28,7 +35,7 @@
 %\parindent 0in
 \parskip 0.05in
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\usepackage{devanagari}
+%\usepackage{devanagari}
 \begin{document}
 
 \frontmatter
@@ -49,10 +56,11 @@
 %
 \mainmatter
 %
-\chapter{ {\dn pArFvrFk E\3FEw\309wT\7{B}mF}}
+\chapter{ {\dn pAErvAErk \9{p}\3A3w\7{B}mF}}
+\section{ {\dn pEhlo Edn }}
 % your text here
  {\dn l\?Kk \399wF EcrE\3D2wvF B\3D3wrAI ko bAr\?mA aEl kEt pErcy\\
-pErvErk sd-y hz ko nAm ys \3FEwkAr C {\rs :\re} \\
+pErvErk sd-y hz ko nAm ys \3FEwkAr C{\rs :\re} \\
 \399wF  \7{s}r\?\306w\qb{d} \7{k}mAr B\3D3wrAI \7{b}bA .\\
 \399wFmtF EVkA d\?vF B\3D3wrAI aAmA . \\
 \399wFmtF sFtA ayA\0l m\?ro \399wFmtF . \\
@@ -60,7 +68,17 @@ pErvErk sd-y hz ko nAm ys \3FEwkAr C {\rs :\re} \\
 \399wFmtF kzZA B\3D3wrAI dFdF . \\
 \7{s}\399wF sFE\3D1wnA B\3D3wrAI CorF . \\
 }
-%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{ {\dn m\?ro d\4nFEk}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{{\dn pEhlo \3FEwys}}
+{\dn 
+\vfill{}
+k\? l\?Hn mn lAg\?ko C (yo l\?Hn\? ho yhA. j-t\4 
+}
+\\
+{\dn aT gEZt\3FEwArMB\?\35FwBF\3A3wd\?vtA\2 nm-kroEt.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \backmatter
 %
 \begin{thebibliography}{99}
@@ -71,22 +89,9 @@ http://shop.anandamarga.org/
 Avtk. Ananda Mitra Ac., \emph{The Spiritual Philosophy of Shrii Shrii Anandamurti: A Commentary on Ananda Sutram}, Ananda Marga Publications (1991) \\
 ISBN: 81-7252-119-7
 \end{thebibliography}
-
-
 %{\dn aEmr \7{K}sz aKtr.}
 %%%%%%%%%%%%%%%%%%%
 % https://latextutorialszn.blogspot.com/2019/10/devanagari-in-latex.html
 %\title
 
-{\dn l\?Kk EcrE\306wjvF B\3D3wrAI ko bAr\?mA aEl kEt pErcy\\
-pErvErk sd-y hz ko nAm ys \3FEwkAr C {\rs :\re} \\
-\7{s}r\?\306w\qb{d} \7{k}mAr B\3D3wrAI \7{b}bA .\\
-EtkA d\?vF B\3D3wrAI aAmA . \\
-sFtA ayA\0l m\?ro E\3FAwmtF . \\
-EsE\306wcnA B\3D3wrAI CorF . \\
-sjnA B\3D3wrAi dFdF . \\
-kzZA B\3D3wrAi dFdF . \\
-}
-\\
-{\dn aT gEZt\3FEwArMB\?\35FwBF\3A3wd\?vtA\2 nm-kroEt.}
 \end{document}

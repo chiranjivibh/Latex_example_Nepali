@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.3)  26 AUG 2022 16:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.3)  26 AUG 2022 17:37
 entering extended mode
 **./Tryal_unicode_nepali.tex
 (Tryal_unicode_nepali.tex
@@ -177,33 +177,33 @@ File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 (Tryal_unicode_nepali.aux)
 \openout1 = `Tryal_unicode_nepali.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/dn/m/n on input line 32.
-LaTeX Font Info:    Trying to load font information for U+dn on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/dn/m/n on input line 39.
+LaTeX Font Info:    Trying to load font information for U+dn on input line 39.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/devanagari\udn.fd"
 File: Udn.fd 2004/08/03 v2.14
 )
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 32.
-LaTeX Font Info:    Trying to load font information for T3+cmr on input line 32
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 39.
+LaTeX Font Info:    Trying to load font information for T3+cmr on input line 39
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/tipa\t3cmr.fd"
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    ... okay on input line 39.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -264,7 +264,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 {C:/Users/cbhattar/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 
 Package Fancyhdr Warning: \headheight is too small (12.5pt): 
-Make it at least 14.49998pt.
+Make it at least 14.7592pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
@@ -273,9 +273,9 @@ This may cause the page layout to be inconsistent, however.
 ] [3] [4
 
 ]
-Chapter 1.
+ {\dn a@yAy} {\dn 1}.
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--64
+Underfull \hbox (badness 10000) in paragraph at lines 62--72
 
  []
 
@@ -283,45 +283,46 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--64
 
 ]
 
-Package Fancyhdr Warning: \headheight is too small (14.49998pt): 
-Make it at least 14.68156pt.
+Package Fancyhdr Warning: \headheight is too small (14.7592pt): 
+Make it at least 14.85223pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
 [2
 
 ]
-Underfull \hbox (badness 1270) in paragraph at lines 68--70
+ {\dn a@yAy} {\dn 2}.
+[3] [4
+
+]
+Underfull \hbox (badness 1270) in paragraph at lines 86--88
 []\OT1/cmr/m/n/12 Books of Shrii Shrii Anan-damurti (Prab-hat Ran-jan
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--92
-
- []
-
-[3
+[5
 
 ] (Tryal_unicode_nepali.aux) ) 
 Here is how much of TeX's memory you used:
- 4175 strings out of 479765
- 53393 string characters out of 2876388
- 326291 words of memory out of 3000000
- 21165 multiletter control sequences out of 15000+200000
- 539702 words of font info for 43 fonts, out of 3000000 for 9000
+ 4176 strings out of 479765
+ 53408 string characters out of 2876388
+ 325259 words of memory out of 3000000
+ 21166 multiletter control sequences out of 15000+200000
+ 540073 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,11n,72p,238b,394s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 66i,11n,72p,238b,392s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\cbhattar\AppData\Local\MiKTeX\2.9\font
 s/pk/ljfour/public/devanagari/dpi720\dvng10.pk> <C:\Users\cbhattar\AppData\Loca
-l\MiKTeX\2.9\fonts/pk/ljfour/public/devanagari/dpi720\dvngb10.pk> <C:\Users\cbh
-attar\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/public/devanagari/dpi1493\dvngb1
+l\MiKTeX\2.9\fonts/pk/ljfour/public/devanagari/dpi1037\dvngb10.pk> <C:\Users\cb
+hattar\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/public/devanagari/dpi720\dvngb1
 0.pk> <C:\Users\cbhattar\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/public/devana
-gari/dpi864\dvngb10.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr1
-2.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Tryal_unicode_nepali.pdf (7 pages, 89657 bytes).
+gari/dpi1493\dvngb10.pk> <C:\Users\cbhattar\AppData\Local\MiKTeX\2.9\fonts/pk/l
+jfour/public/devanagari/dpi864\dvngb10.pk><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmti12.pfb>
+Output written on Tryal_unicode_nepali.pdf (9 pages, 103518 bytes).
 PDF statistics:
- 157 PDF objects out of 1000 (max. 8388607)
+ 196 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
